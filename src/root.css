@@ -1,0 +1,59 @@
+:root {
+    /* font-size */
+    --fs-base: 16px;
+    --fs-4xl: 32px;
+    --fs-6xl: 60px;
+    /* line-height */
+    --lh-base: 24px;
+    --lh-4xl: 48px;
+    --lh-6xl: 72px;
+    /* color */
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-yellow-primary: #FFF624;
+    --color-gray-primary: #C1C1C1;
+    --color-black-primary: #F1F1F105;
+    --color-black-secondry: #010101;
+    --color-white-primary: #F1F1F1;
+    --color-gray-secondry: #F1F1F129;
+    --color-gray-light: #D9D9D9;
+}
+
+.text-base {
+    font-size: var(--fs-base);
+    line-height: var(--lh-base);
+}
+
+.text-4xl {
+    font-size: var(--fs-4xl);
+    line-height: var(--lh-4xl);
+}
+
+.text-6xl {
+    font-size: var(--fs-6xl);
+    line-height: var(--lh-6xl);
+}
+
+.color-yellow {
+    color: var(--color-yellow-primary);
+}
+
+.color-gray-primary {
+    color: var(--color-gray-primary);
+}
+
+.color-white-primary {
+    color: var(--color-white-primary);
+}
+
+.color-gray-light {
+    color: var(--color-gray-light);
+}
+
+.color-black-secondry {
+    color: var(--color-black-secondry);
+}
+
+.bg-yellow-primary {
+    background: var(--color-yellow-primary);
+}
