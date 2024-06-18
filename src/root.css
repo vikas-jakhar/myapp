@@ -1,11 +1,15 @@
 :root {
     /* font-size */
+    --fs-sm: 14px;
     --fs-base: 16px;
     --fs-4xl: 32px;
+    --fs-5xl: 48px;
     --fs-6xl: 60px;
     /* line-height */
+    --lh-sm: 21px;
     --lh-base: 24px;
     --lh-4xl: 48px;
+    --lh-5xl: 58px;
     --lh-6xl: 72px;
     /* color */
     --color-white: #FFFFFF;
@@ -17,6 +21,8 @@
     --color-white-primary: #F1F1F1;
     --color-gray-secondry: #F1F1F129;
     --color-gray-light: #D9D9D9;
+    --color-gray-drak: #313131;
+    --color-gray-light1: #A9A9A9;
 }
 
 .text-base {
@@ -56,4 +62,22 @@
 
 .bg-yellow-primary {
     background: var(--color-yellow-primary);
+}
+
+.bg-gray-dark {
+    background: var(--color-gray-drak);
+}
+
+.color-gray-light1 {
+    color: var(--color-gray-light1);
+}
+
+.text-sm {
+    font-size: var(--fs-sm);
+    line-height: var(--lh-sm);
+}
+
+.text-5xl {
+    font-size: var(--fs-5xl);
+    line-height: var(--lh-5xl);
 }

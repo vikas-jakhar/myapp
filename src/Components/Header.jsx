@@ -1,6 +1,5 @@
 import React from 'react'
 import hero from "../assets/image/png/hero-img.png";
-// import herobottom from "../assets/image/png/hero-bottom.png";
 
 const Header = () => {
   return (
@@ -29,7 +28,6 @@ const Header = () => {
           <img src={hero} alt="hero" className=' w-75 mt-1'/>
         </div>
       </div>
-        {/* <img src={herobottom} alt="hero-bottom" className=' w-100 position-absolute start-0 bottom-0' /> */}
     </section>
   )
 }

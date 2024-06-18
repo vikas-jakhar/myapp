@@ -58,10 +58,54 @@
     margin-top: -8px;
 }
 
+.p-40 {
+    padding: 40px;
+}
+
+.p-12 {
+    padding: 12px;
+}
+
+.pr-22 {
+    padding-right: 22px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.max-w-856 {
+    max-width: 856px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
 /* width-height */
 
 .max-w-702 {
     max-width: 702px;
+}
+
+.max-w-254 {
+    max-width: 254px;
+}
+
+.max-w-404 {
+    max-width: 404px;
+}
+
+.h-53 {
+    height: 53px;
+}
+
+.w-53 {
+    width: 53px;
+}
+
+.max-w-114 {
+    max-width: 114px;
 }
 
 /* section-classes */
@@ -151,6 +195,78 @@
     background-size: cover;
 }
 
+.light-line {
+    background: linear-gradient(180deg, rgba(255, 246, 36, 0.0222222) 0%, #FFF624 55%, rgba(255, 246, 36, 0) 100%);
+    width: 2px;
+    height: 32px;
+    opacity: 20%;
+}
+
+.border-r-5 {
+    border-radius: 5px;
+}
+
+#player {
+    width: 100%;
+    height: 22px;
+    position: relative;
+    margin: 0 auto;
+    top: 15px;
+}
+
+#volume {
+    position: absolute;
+    left: 0px;
+    margin: 0 auto;
+    height: 22px;
+    width: 100%;
+    background: var(--color-white);
+    border-radius: 15px;
+
+    .ui-slider-range-min {
+        height: 22px;
+        width: 100%;
+        position: absolute;
+        background: var(bg-yellow-primary);
+        border: none;
+        border-radius: 10px;
+        outline: none;
+    }
+
+    .ui-slider-handle {
+        width: 26px;
+        height: 26px;
+        border-radius: 20px;
+        background: url(./assets/image/png/slider-handle-img.png);
+        position: absolute;
+        margin-left: -12px;
+        margin-top: -2px;
+        cursor: pointer;
+        outline: none;
+    }
+}
+
+.yellow-line {
+    top: -30px;
+    left: 30%;
+}
+
+.white-line {
+    top: -30px;
+    right: 4%;
+}
+
+.end-36 {
+    right: -36px;
+}
+
+.address-sec {
+    background-image: url(../src/assets/image/png/address-sec-bg-layer.png);
+    background-size: cover;
+    background-color: var(--color-black);
+    background-repeat: no-repeat;
+    min-height: 564px;
+}
 
 /* media */
 

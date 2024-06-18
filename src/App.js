@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Components/Navbar'
 import Header from './Components/Header';
 import Sclair from './Components/Sclair';
+import Address from './Components/Address';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Header />
       <Sclair />
+      <Address />
     </>
   );
 }
