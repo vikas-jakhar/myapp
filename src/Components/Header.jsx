@@ -1,6 +1,6 @@
 import React from 'react'
 import hero from "../assets/image/png/hero-img.png";
-import herobottom from "../assets/image/png/hero-bottom.png";
+// import herobottom from "../assets/image/png/hero-bottom.png";
 
 const Header = () => {
   return (

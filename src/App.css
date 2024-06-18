@@ -54,6 +54,10 @@
     margin-top: 32px;
 }
 
+.-mt-8 {
+    margin-top: -8px;
+}
+
 /* width-height */
 
 .max-w-702 {
@@ -130,6 +134,21 @@
 
 .btn-buy:hover svg path {
     fill: var(--color-white);
+}
+
+.time-box {
+    background: linear-gradient(123.75deg, rgba(255, 255, 255, 0.2) 11.04%, rgba(255, 255, 255, 0.02) 87.64%);
+    max-width: 818px;
+    min-height: 277px;
+    border-radius: 20px;
+    padding: 1px;
+}
+
+.time-box2 {
+    background: url(../src/assets/image/png/sclair-layer-img.png);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 

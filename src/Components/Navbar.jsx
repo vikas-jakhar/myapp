@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../assets/image/svg/logo.svg";
+import logoSvg from '../assets/image/svg/logo.svg'
 
 const Navbar = () => {
     return (
@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="container">
                 <nav className=' d-flex align-items-center justify-content-between py-26'>
                     <a href="#" className=' d-flex align-items-center gap-12'>
-                        <img src={logo} alt="logo" />
+                        <img src={logoSvg} alt="logo" />
                         <h2 className=' mb-0 fw-semibold font-manrope text-4xl color-yellow'>$CLAIR</h2>
                     </a>
                     <div className=' d-flex align-items-center gap-32 menu-list'>
