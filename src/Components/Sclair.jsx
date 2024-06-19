@@ -5,12 +5,12 @@ import eye from "../assets/image/png/eye-img.png";
 
 const Sclair = () => {
     return (
-        <section className=' position-relative py-5 -mt-8 bg-black'>
+        <section className=' position-relative py-5 -mt-8 bg-black overflow-hidden'>
             <div className=" container">
                 <div className=" d-flex justify-content-center">
                     <div className=' time-box w-100 d-flex justify-content-center'>
-                        <div className=" p-40 time-box2 w-100 h-100 d-flex justify-content-between">
-                            <div className="max-w-254 w-100">
+                        <div className=" p-3 p-md-40 time-box2 w-100 h-100 d-flex justify-content-center flex-column align-items-center flex-lg-row justify-content-lg-between">
+                            <div className="max-w-254 w-100 mt-24">
                                 <div className=' d-flex justify-content-between align-items-center'>
                                     <div className=" d-flex flex-column">
                                         <p className=' mb-0 fw-normal font-manrope text-base color-gray-primary'>
@@ -96,7 +96,7 @@ const Sclair = () => {
                                     Buy Now
                                 </button>
                             </div>
-                            <div className=' max-w-404 w-100'>
+                            <div className=' max-w-404 w-100 mt-24'>
                                 <div className=' d-flex justify-content-between align-items-center'>
                                     <div className=" d-flex flex-column">
                                         <p className=' mb-0 fw-normal font-manrope text-base color-gray-primary'>
@@ -115,7 +115,7 @@ const Sclair = () => {
                                         </p>
                                     </div>
                                 </div>
-                                <div id="player">
+                                <div id="player" className=' mt-sm-0'>
                                     <img src={yellowline} alt="yellowline" className=' position-absolute yellow-line' />
                                     <img src={whiteline} alt="whiteline" className=' position-absolute white-line' />
                                     <div id="volume"></div>
@@ -143,7 +143,7 @@ const Sclair = () => {
                 <div className=" d-flex justify-content-center mt-100">
                     <div className=" position-relative max-w-856 w-100">
                         <img src={eye} alt="eye" className=' position-absolute top-0 end-36' />
-                        <h2 className=' mb-0 fw-semibold font-manrope text-5xl color-white-primary text-center position-relative z-1'>
+                        <h2 className=' mb-0 fw-semibold font-manrope text-6xl color-white-primary text-center position-relative z-1'>
                             About <span className=' color-yellow fw-bold'>$CLAIR</span>
                         </h2>
                         <div className=" position-relative z-1 mt-16 d-flex flex-column align-items-center pb-4">

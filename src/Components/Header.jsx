@@ -6,7 +6,7 @@ const Header = () => {
     <section className=' hero-sec min-vh-100 position-relative py-1'>
       <div className="container position-relative z-1">
         <div className=' d-flex flex-column align-items-center mt-150'>
-          <h2 className=' font-manrope fw-bold color-white-primary text-6xl mb-0'>
+          <h2 className=' font-manrope fw-bold color-white-primary text-7xl mb-0'>
             Presale is <span className=' color-yellow'>Live</span>
           </h2>
           <p className=' max-w-702 font-manrope fw-normal text-base text-center color-gray-light mt-16 mb-0'>

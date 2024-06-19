@@ -1,17 +1,29 @@
 :root {
     /* font-size */
+
     --fs-sm: 14px;
     --fs-base: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 20px;
+    --fs-2xl: 24px;
     --fs-4xl: 32px;
-    --fs-5xl: 48px;
-    --fs-6xl: 60px;
+    --fs-5xl: 30px;
+    --fs-6xl: 36px;
+    --fs-7xl: 40px;
+
     /* line-height */
+
     --lh-sm: 21px;
     --lh-base: 24px;
+    --lh-xl: 30px;
+    --lh-2xl: 36px;
     --lh-4xl: 48px;
-    --lh-5xl: 58px;
-    --lh-6xl: 72px;
+    --lh-5xl: 48px;
+    --lh-6xl: 46px;
+    --lh-7xl: 72px;
+
     /* color */
+
     --color-white: #FFFFFF;
     --color-black: #000000;
     --color-yellow-primary: #FFF624;
@@ -25,9 +37,24 @@
     --color-gray-light1: #A9A9A9;
 }
 
+.text-sm {
+    font-size: var(--fs-sm);
+    line-height: var(--lh-sm);
+}
+
 .text-base {
     font-size: var(--fs-base);
     line-height: var(--lh-base);
+}
+
+.text-xl {
+    font-size: var(--fs-xl);
+    line-height: var(--lh-xl);
+}
+
+.text-2xl {
+    font-size: var(--fs-2xl);
+    line-height: var(--lh-2xl);
 }
 
 .text-4xl {
@@ -35,9 +62,19 @@
     line-height: var(--lh-4xl);
 }
 
+.text-5xl {
+    font-size: var(--fs-5xl);
+    line-height: var(--lh-5xl);
+}
+
 .text-6xl {
     font-size: var(--fs-6xl);
     line-height: var(--lh-6xl);
+}
+
+.text-7xl {
+    font-size: var(--fs-7xl);
+    line-height: var(--lh-7xl);
 }
 
 .color-yellow {
@@ -72,12 +109,55 @@
     color: var(--color-gray-light1);
 }
 
-.text-sm {
-    font-size: var(--fs-sm);
-    line-height: var(--lh-sm);
+@media (min-width:576px) {
+    :root {
+        /* font-size */
+
+        --fs-sm: 14px;
+        --fs-base: 16px;
+        --fs-lg: 18px;
+        --fs-xl: 20px;
+        --fs-2xl: 24px;
+        --fs-4xl: 32px;
+        --fs-5xl: 30px;
+        --fs-6xl: 42px;
+        --fs-7xl: 50px;
+
+        /* line-height */
+
+        --lh-sm: 21px;
+        --lh-base: 24px;
+        --lh-2xl: 36px;
+        --lh-4xl: 48px;
+        --lh-5xl: 48px;
+        --lh-6xl: 58px;
+        --lh-7xl: 72px;
+    }
 }
 
-.text-5xl {
-    font-size: var(--fs-5xl);
-    line-height: var(--lh-5xl);
+
+@media (min-width:992px) {
+    :root {
+        /* font-size */
+
+        --fs-sm: 14px;
+        --fs-base: 16px;
+        --fs-lg: 18px;
+        --fs-xl: 20px;
+        --fs-2xl: 24px;
+        --fs-4xl: 32px;
+        --fs-5xl: 40px;
+        --fs-6xl: 48px;
+        --fs-7xl: 60px;
+
+        /* line-height */
+
+        --lh-sm: 21px;
+        --lh-base: 24px;
+        --lh-2xl: 36px;
+        --lh-4xl: 48px;
+        --lh-5xl: 48px;
+        --lh-6xl: 58px;
+        --lh-7xl: 72px;
+    }
 }
