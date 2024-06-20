@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import chartimg from "../assets/image/png/circle-chart.png";
 import dog from "../assets/image/png/dog.png";
 import sinclair1 from "../assets/image/png/sinclair-img.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Tokenomics = () => {
+    useEffect(() => {
+        AOS.init({ once: true });
+    }, []);
     return (
         <section className=' py-3 -mt-8 position-relative bg-black'>
             <div className="container mt-32 mt-sm-100 mb-5 pb-2">
                 <div className="row justify-content-center">
-                    <div className="col-lg-6 d-flex justify-content-start align-items-center">
+                    <div className="col-lg-6 d-flex justify-content-start align-items-center" data-aos="fade-right" data-aos-duration="2000">
                         <div className=" d-flex flex-column">
                             <h2 className=' mb-0 fw-semibold font-manrope text-6xl color-white-primary'>
                                 Tokenomics
@@ -115,11 +120,11 @@ const Tokenomics = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-8 mt-24  mt-lg-0 d-lg-flex justify-content-lg-end">
+                    <div className="col-lg-6 col-8 mt-24  mt-lg-0 d-lg-flex justify-content-lg-end" data-aos="fade-left" data-aos-duration="2000">
                         <img src={chartimg} alt="chart-img" className=' w-100 h-100 max-h-565 max-w-491' />
                     </div>
                 </div>
-                <div className=" w-100 token-box">
+                <div className=" w-100 token-box" data-aos="fade-up" data-aos-duration="2000">
                     <div className=' border-r-16 token-box2 d-flex justify-content-between align-items-center flex-column flex-lg-row gap-lg-4'>
                         <div className=" d-flex gap-sm-20 gap-2 align-items-center">
                             <span className='circle d-grid'>

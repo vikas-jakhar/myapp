@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Accordion = () => {
+    useEffect(() => {
+        AOS.init({ once: true });
+    }, []);
     return (
         <section className='py-5 position-relative Accordion-sec d-flex align-items-center'>
             <div className="container mt-78 mb-5">
-                <h2 className=' mb-0 text-center font-manrope fw-semibold text-6xl color-white-primary'>
+                <h2 className=' mb-0 text-center font-manrope fw-semibold text-6xl color-white-primary' data-aos="fade-up" data-aos-duration="2000">
                     Frequently Asked <span className=' color-yellow'>Questions</span>
                 </h2>
                 <div className=" mt-60 d-flex flex-column align-items-center">
-                    <div className="accordion1 w-100 overflow-hidden position-relative active-accordion">
+                    <div className="accordion1 w-100 overflow-hidden position-relative active-accordion" data-aos="fade-up" >
                         <div className="accordionheading cursor-pointer p-12 d-flex justify-content-between align-items-center">
                             <h2 className=' mb-0 fw-normal text-base font-manrope color-gray-light1'>
                                 WHAT IS $CLAIR?
@@ -24,7 +29,7 @@ const Accordion = () => {
                             AI technology, Baby Sinclair has the potential to make millions.
                         </h2>
                     </div>
-                    <div className="accordion1 w-100 overflow-hidden position-relative mt-24">
+                    <div className="accordion1 w-100 overflow-hidden position-relative mt-24" data-aos="fade-up">
                         <div className="accordionheading cursor-pointer p-12 d-flex justify-content-between align-items-center">
                             <h2 className=' mb-0 fw-normal text-base font-manrope color-gray-light1'>
                                 Arcu in pellentesque sit odio.
@@ -40,7 +45,7 @@ const Accordion = () => {
                             AI technology, Baby Sinclair has the potential to make millions.
                         </h2>
                     </div>
-                    <div className="accordion1 w-100 overflow-hidden position-relative mt-24">
+                    <div className="accordion1 w-100 overflow-hidden position-relative mt-24" data-aos="fade-up">
                         <div className="accordionheading cursor-pointer p-12 d-flex justify-content-between align-items-center">
                             <h2 className=' mb-0 fw-normal text-base font-manrope color-gray-light1'>
                                 Lorem gravida feugiat aliquet arcu porttitor sodales tellus habitant sed.
@@ -56,7 +61,7 @@ const Accordion = () => {
                             AI technology, Baby Sinclair has the potential to make millions.
                         </h2>
                     </div>
-                    <div className="accordion1 w-100 overflow-hidden position-relative mt-24">
+                    <div className="accordion1 w-100 overflow-hidden position-relative mt-24" data-aos="fade-up">
                         <div className="accordionheading cursor-pointer p-12 d-flex justify-content-between align-items-center">
                             <h2 className=' mb-0 fw-normal text-base font-manrope color-gray-light1'>
                                 Metus augue dictumst sit amet.
@@ -72,7 +77,7 @@ const Accordion = () => {
                             AI technology, Baby Sinclair has the potential to make millions.
                         </h2>
                     </div>
-                    <div className="accordion1 w-100 overflow-hidden position-relative mt-24">
+                    <div className="accordion1 w-100 overflow-hidden position-relative mt-24" data-aos="fade-up">
                         <div className="accordionheading cursor-pointer p-12 d-flex justify-content-between align-items-center">
                             <h2 className=' mb-0 fw-normal text-base font-manrope color-gray-light1'>
                                 Elementum viverra tellus tincidunt nunc odio at id ipsum.
@@ -88,7 +93,7 @@ const Accordion = () => {
                             AI technology, Baby Sinclair has the potential to make millions.
                         </h2>
                     </div>
-                    <div className="accordion1 w-100 overflow-hidden position-relative mt-24">
+                    <div className="accordion1 w-100 overflow-hidden position-relative mt-24" data-aos="fade-up">
                         <div className="accordionheading cursor-pointer p-12 d-flex justify-content-between align-items-center">
                             <h2 className=' mb-0 fw-normal text-base font-manrope color-gray-light1'>
                                 Sagittis morbi aliquam facilisis ornare lacus tempus massa.Arcu in pellentesque sit odio.
@@ -104,7 +109,7 @@ const Accordion = () => {
                             AI technology, Baby Sinclair has the potential to make millions.
                         </h2>
                     </div>
-                    <div className="accordion1 w-100 overflow-hidden position-relative mt-24">
+                    <div className="accordion1 w-100 overflow-hidden position-relative mt-24" data-aos="fade-up">
                         <div className="accordionheading cursor-pointer p-12 d-flex justify-content-between align-items-center">
                             <h2 className=' mb-0 fw-normal text-base font-manrope color-gray-light1'>
                                 Elementum at dui varius consequat fringilla.
