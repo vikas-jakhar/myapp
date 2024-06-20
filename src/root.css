@@ -114,7 +114,7 @@
 }
 
 .color-gray-light1 {
-    color: var(--color-gray-light1);
+    color: var(--color-gray-light1) !important;
 }
 
 @media (min-width:576px) {

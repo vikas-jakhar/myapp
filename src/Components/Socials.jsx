@@ -19,9 +19,9 @@ const Socials = () => {
               <p className=' fw-normal mb-0 font-manrope text-base text-center color-gray-light1 mt-16 position-relative z-1'>
                 Join us on social media for exclusive giveaways and stay connected!
               </p>
-              <h2 className=' mb-0 mt-32 font-manrope text-xl fw-medium color-yellow text-center position-relative z-1'>
+              <p className=' mb-0 mt-32 font-manrope text-xl fw-medium color-yellow text-center position-relative z-1'>
                 “Exciting Releases of 'Bad Players' Avatars Coming Soon: Be Ready for the Fun!"
-              </h2>
+              </p>
               <div className=" mt-32 d-flex gap-16 position-relative z-1">
                 <a href="https://discord.com/" target='_blank' className='insta-icon d-grid'>
                   <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -7,7 +7,7 @@ import Address from './Components/Address';
 import Tokenomics from "./Components/Tokenomics";
 import Secure from "./Components/Secure";
 import Roadmap from "../src/Components/Roadmap";
-import Accordion from "../src/Components/Accordion";
+import Accordionsec from "./Components/Accordionsec";
 import Socials from "../src/Components/Socials";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <Tokenomics />
       <Secure />
       <Roadmap />
-      <Accordion />
+      <Accordionsec />
       <Socials />
     </main>
   );
