@@ -149,9 +149,9 @@ const Tokenomics = () => {
                             </span>
                         </div>
                         <div className=" d-flex flex-column mt-3">
-                            <h5 className=' mb-0 font-manrope fw-semibold text-xl color-white-primary'>
+                            <p className=' mb-0 font-manrope fw-semibold text-xl color-white-primary'>
                                 Baby Sinclair Stands Strong with the Shiba Inu Community
-                            </h5>
+                            </p>
                             <p className=' font-manrope fw-normal text-base color-gray-primary mb-0 mt-10'>
                                 10% of every $CLAIR token sold post-presale will be dedicated to burning SHIB.
                             </p>

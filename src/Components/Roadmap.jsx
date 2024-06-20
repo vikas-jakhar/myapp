@@ -18,9 +18,9 @@ const Roadmap = () => {
           <div className="col-lg-4 col-md-6 d-flex justify-content-center mt-24 mt-lg-0" data-aos="zoom-in" data-aos-duration="2000">
             <div className="phase1 w-100 position-relative top-lg-184">
               <div className="phase1-box d-flex flex-column">
-                <h4 className=' mb-0 text-white fw-medium font-manrope text-4xl'>
+                <h2 className=' mb-0 text-white fw-medium font-manrope text-4xl'>
                   Phase 1
-                </h4>
+                </h2>
                 <div className=' d-flex align-items-center gap-10 mt-16'>
                   <span className=' dot d-flex'></span>
                   <p className=' mb-0 fw-medium text-base font-manrope color-gray-primary'>
@@ -70,9 +70,9 @@ const Roadmap = () => {
           <div className="col-lg-4 col-md-6 d-flex justify-content-center mt-24 mt-lg-0" data-aos="zoom-in" data-aos-duration="2000">
             <div className="phase1 w-100 position-relative top-lg-78">
               <div className="phase1-box d-flex flex-column">
-                <h4 className=' mb-0 text-white fw-medium font-manrope text-4xl'>
+                <h2 className=' mb-0 text-white fw-medium font-manrope text-4xl'>
                   Phase 2
-                </h4>
+                </h2>
                 <div className=' d-flex align-items-center gap-10 mt-16'>
                   <span className=' dot d-flex'></span>
                   <p className=' mb-0 fw-medium text-base font-manrope color-gray-primary'>
@@ -122,9 +122,9 @@ const Roadmap = () => {
           <div className="col-lg-4 col-md-6 d-flex justify-content-center mt-24 mt-lg-0" data-aos="zoom-in" data-aos-duration="2000">
             <div className="phase1 w-100 position-relative">
               <div className="phase1-box d-flex flex-column pb-39">
-                <h4 className=' mb-0 text-white fw-medium font-manrope text-4xl'>
+                <h2 className=' mb-0 text-white fw-medium font-manrope text-4xl'>
                   Phase 3
-                </h4>
+                </h2>
                 <div className=' max-w-226'>
                 <div className=' d-flex align-items-center gap-10 mt-16'>
                   <span className=' dot d-flex'></span>
