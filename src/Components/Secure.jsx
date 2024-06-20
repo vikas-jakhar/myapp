@@ -11,7 +11,7 @@ import ellipse from "../assets/image/png/Ellipse-right.png";
 const Secure = () => {
     return (
         <section className=' py-5 -mt-8 Secure-bg-img position-relative'>
-            <div className="container mt-sm-158 mt-2">
+            <div className="container mt-sm-130 mt-2">
                 <div className="row">
                     <div className="col-lg-6 d-flex justify-content-center">
                         <img src={secure} alt="secure" className=' w-100 max-w-h-245' />

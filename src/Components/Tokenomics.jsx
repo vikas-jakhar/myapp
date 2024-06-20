@@ -6,7 +6,7 @@ import sinclair1 from "../assets/image/png/sinclair-img.png";
 const Tokenomics = () => {
     return (
         <section className=' py-3 -mt-8 position-relative bg-black'>
-            <div className="container mt-32 mt-sm-100">
+            <div className="container mt-32 mt-sm-100 mb-5 pb-2">
                 <div className="row justify-content-center">
                     <div className="col-lg-6 d-flex justify-content-start align-items-center">
                         <div className=" d-flex flex-column">

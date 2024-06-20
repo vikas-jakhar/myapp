@@ -5,7 +5,7 @@ import eye from "../assets/image/png/eye-img.png";
 
 const Sclair = () => {
     return (
-        <section className=' position-relative py-5 -mt-8 bg-black overflow-hidden'>
+        <section className=' position-relative py-1 -mt-8 bg-black overflow-hidden'>
             <div className=" container">
                 <div className=" d-flex justify-content-center">
                     <div className=' time-box w-100 d-flex justify-content-center'>
@@ -140,7 +140,7 @@ const Sclair = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" d-flex justify-content-center mt-100">
+                <div className=" d-flex justify-content-center mt-100 mb-10">
                     <div className=" position-relative max-w-856 w-100">
                         <img src={eye} alt="eye" className=' position-absolute top-0 end-36' />
                         <h2 className=' mb-0 fw-semibold font-manrope text-6xl color-white-primary text-center position-relative z-1'>
