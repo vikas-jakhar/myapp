@@ -12,7 +12,7 @@ import Socials from "../src/Components/Socials";
 
 function App() {
   return (
-    <>
+    <main className=' overflow-hidden'>
       <Navbar />
       <Header />
       <Sclair />
@@ -22,7 +22,7 @@ function App() {
       <Roadmap />
       <Accordion />
       <Socials />
-    </>
+    </main>
   );
 }
 

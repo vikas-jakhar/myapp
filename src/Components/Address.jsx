@@ -9,7 +9,7 @@ const Address = () => {
     }, []);
     return (
         <section className=' position-relative -mt-3 py-5 address-sec d-flex align-items-center'>
-            <div className="container position-relative z-1 d-flex justify-content-center">
+            <div className="container my-5 position-relative z-1 d-flex justify-content-center">
                 <div className=" max-w-806 w-100 d-flex flex-column align-items-center">
                     <h2 className=' mb-0 fw-bold font-manrope text-6xl color-white-primary text-center' data-aos="fade-up" data-aos-duration="2000">
                         <span className=' color-yellow fw-semibold font-manrope'>$CLAIR </span>
