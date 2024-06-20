@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import ellipse from "../assets/image/png/Ellipse-left.png";
+import ellipse from "../assets/image/png/Ellipse-left.webp";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

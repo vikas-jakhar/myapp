@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import chartimg from "../assets/image/png/circle-chart.png";
-import dog from "../assets/image/png/dog.png";
-import sinclair1 from "../assets/image/png/sinclair-img.png";
+import chartimg from "../assets/image/png/circle-chart.webp";
+import dog from "../assets/image/png/dog.webp";
+import sinclair1 from "../assets/image/png/sinclair-img.webp";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -11,7 +11,7 @@ const Tokenomics = () => {
     }, []);
     return (
         <section className=' py-3 -mt-8 position-relative bg-black'>
-            <div className="container mt-32 mt-sm-100 mb-5 pb-2">
+            <div className="container mt-32 mt-sm-100 mb-lg-5 pb-2">
                 <div className="row justify-content-center">
                     <div className="col-lg-6 d-flex justify-content-start align-items-center" data-aos="fade-right" data-aos-duration="2000">
                         <div className=" d-flex flex-column">

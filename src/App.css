@@ -267,7 +267,7 @@
 }
 
 .hero-sec {
-    background-image: url(../src/assets/image/png/Hero-sec-bg-img.png);
+    background-image: url(../src/assets/image/png/Hero-sec-bg-img.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -339,7 +339,7 @@
 }
 
 .time-box2 {
-    background: url(../src/assets/image/png/sclair-layer-img.png);
+    background: url(../src/assets/image/png/sclair-layer-img.webp);
     border-radius: 20px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -388,7 +388,7 @@
         width: 26px;
         height: 26px;
         border-radius: 20px;
-        background: url(./assets/image/png/slider-handle-img.png);
+        background: url(./assets/image/png/slider-handle-img.webp);
         position: absolute;
         margin-left: -12px;
         margin-top: -2px;
@@ -412,7 +412,7 @@
 }
 
 .address-sec {
-    background-image: url(../src/assets/image/png/address-sec-bg-layer.png);
+    background-image: url(../src/assets/image/png/address-sec-bg-layer.webp);
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.99);
     background-repeat: no-repeat;
@@ -469,7 +469,7 @@
 }
 
 .Secure-bg-img {
-    background-image: url(../src/assets/image/png/Secure-sec-bg-img.png);
+    background-image: url(../src/assets/image/png/Secure-sec-bg-img.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -543,7 +543,7 @@
 }
 
 .roadmap {
-    background-image: url(../src/assets/image/png/roadmap-bg-img.png);
+    background-image: url(../src/assets/image/png/roadmap-bg-img.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -578,7 +578,7 @@
 }
 
 .Accordion-sec {
-    background-image: url(../src/assets/image/png/Accordion-sec-bg-img.png);
+    background-image: url(../src/assets/image/png/Accordion-sec-bg-img.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import dotline from "../assets/image/svg/dotline.svg";
-import stoke from "../assets/image/png/stoke-line.png";
+import stoke from "../assets/image/png/stoke-line.webp";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

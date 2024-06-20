@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import yellowline from "../assets/image/png/yellow-line.png";
-import whiteline from "../assets/image/png/white-line.png";
-import eye from "../assets/image/png/eye-img.png";
+import yellowline from "../assets/image/png/yellow-line.webp";
+import whiteline from "../assets/image/png/white-line.webp";
+import eye from "../assets/image/png/eye-img.webp";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

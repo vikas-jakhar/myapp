@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
-import secure from "../assets/image/png/secure-img.png";
-import coinbase from "../assets/image/png/coinbase.png";
-import kraken from "../assets/image/png/kraken.png";
-import kucoin from "../assets/image/png/kucoin.png";
-import okk from "../assets/image/png/okk.png";
-import uniswap from "../assets/image/png/uniswap.png";
-import coingecko from "../assets/image/png/coingecko.png";
-import ellipse from "../assets/image/png/Ellipse-right.png";
+import secure from "../assets/image/png/secure-img.webp";
+import coinbase from "../assets/image/png/coinbase.webp";
+import kraken from "../assets/image/png/kraken.webp";
+import kucoin from "../assets/image/png/kucoin.webp";
+import okk from "../assets/image/png/okk.webp";
+import uniswap from "../assets/image/png/uniswap.webp";
+import coingecko from "../assets/image/png/coingecko.webp";
+import ellipse from "../assets/image/png/Ellipse-right.webp";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -16,8 +16,8 @@ const Secure = () => {
     }, []);
     return (
         <section className=' py-5 -mt-8 Secure-bg-img position-relative'>
-            <div className="container mt-sm-130 mt-2">
-                <div className="row">
+            <div className="container mt-sm-130 my-5 my-lg-2 pt-lg-0 pt-5">
+                <div className="row mt-4 mt-lg-0">
                     <div className="col-lg-6 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="2000">
                         <img src={secure} alt="secure" className=' w-100 max-w-h-245' />
                     </div>

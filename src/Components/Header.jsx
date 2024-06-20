@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from "../assets/image/png/hero-img.png";
+import hero from "../assets/image/png/hero-img.webp";
 
 const Header = () => {
   return (
