@@ -1,11 +1,34 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import eye from "../assets/image/png/eye-img.webp";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Socials = () => {
+  const [visible, setVisible] = useState(false);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
+  const toggleVisible = () => {
+    const scrolled = document.documentElement.scrollTop;
+    if (scrolled > 500) {
+      setVisible(true);
+    } else if (scrolled <= 500) {
+      setVisible(false);
+    }
+  };
+
   useEffect(() => {
     AOS.init({ once: true });
+    window.addEventListener('scroll', toggleVisible);
+
+    return () => {
+      window.removeEventListener('scroll', toggleVisible);
+    };
   }, []);
   return (
     <footer className=' pt-5 pb-4 -mt-8 position-relative bg-black overflow-hidden'>
@@ -73,6 +96,7 @@ const Socials = () => {
           </div>
         </div>
         <span className=' d-flex w-100 h-1 opacity-25 mt-32 bg-yellow-primary'></span>
+        <button className='scrolltop position-fixed font-manropre fw-bold text-xl' onClick={scrollToTop} style={{ display: visible ? 'grid' : 'none' }}>⇑</button>
       </div>
     </footer>
   )
