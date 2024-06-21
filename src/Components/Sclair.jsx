@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import yellowline from "../assets/image/png/yellow-line.webp";
 import whiteline from "../assets/image/png/white-line.webp";
 import eye from "../assets/image/png/eye-img.webp";
@@ -9,6 +9,40 @@ const Sclair = () => {
     useEffect(() => {
         AOS.init({ once: true });
     }, []);
+    const [countdownDate, setCountdownDate] = useState(new Date('6 /22/2024').getTime());
+    const [state, setState] = useState({
+        days: 0,
+        hours: 0,
+        minutes: 0,
+        seconds: 0,
+    });
+    useEffect(() => {
+        setInterval(() => setNewTime(), 1000);
+    }, []);
+    const setNewTime = () => {
+        if (countdownDate) {
+            const currentTime = new Date().getTime();
+            const distanceToDate = countdownDate - currentTime;
+            let days = Math.floor(distanceToDate / (1000 * 60 * 60 * 24));
+            let hours = Math.floor(
+                (distanceToDate % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+            );
+            let minutes = Math.floor(
+                (distanceToDate % (1000 * 60 * 60)) / (1000 * 60),
+            );
+            let seconds = Math.floor((distanceToDate % (1000 * 60)) / 1000);
+            const numbersToAddZeroTo = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+            days = `${days}`;
+            if (numbersToAddZeroTo.includes(hours)) {
+                hours = `0${hours}`;
+            } else if (numbersToAddZeroTo.includes(minutes)) {
+                minutes = `0${minutes}`;
+            } else if (numbersToAddZeroTo.includes(seconds)) {
+                seconds = `0${seconds}`;
+            }
+            setState({ days: days, hours: hours, minutes, seconds });
+        }
+    };
     return (
         <section className=' position-relative py-1 -mt-8 bg-black overflow-hidden' id='Sclair'>
             <div className=" container">
@@ -128,8 +162,8 @@ const Sclair = () => {
                                 <p className=" mb-0 text-sm font-manrope fw-normal mt-2 pt-3 color-gray-light1">
                                     Purchase $Clair fast until the price increase.
                                 </p>
-                                <div className=" mt-16 d-flex justify-content-between">
-                                    <div className=" d-flex align-items-center max-w-114 w-100 justify-content-between gap-10">
+                                <div className=" mt-16 d-flex flex-column flex-sm-row justify-content-sm-between justify-content-center align-items-center">
+                                    <div className=" d-flex align-items-center max-w-114 w-100 justify-content-between gap-10 mb-4 mb-sm-0">
                                         <span className=' d-flex'>
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM16.281 17.781C16.134 17.9265 15.942 18 15.75 18C15.558 18 15.366 17.9265 15.219 17.781L10.719 13.281C10.5795 13.14 10.5 12.9495 10.5 12.75V5.25C10.5 4.836 10.836 4.5 11.25 4.5C11.664 4.5 12 4.836 12 5.25V12.4395L16.281 16.7205C16.5735 17.013 16.5735 17.487 16.281 17.781Z" fill="#F1F1F1" />
@@ -139,6 +173,66 @@ const Sclair = () => {
                                             Price
                                             increase in
                                         </h2>
+                                    </div>
+                                    <div className=" d-flex align-items-end gap-8">
+                                        <div className=" d-flex flex-column">
+                                            <p className=" mb-0 text-sm font-manrope fw-normal color-gray-light1 text-center">
+                                                Days
+                                            </p>
+                                            <div className=" mt-1 timing-box d-grid">
+                                                <p className=' mb-0 text-2xl font-manrope fw-normal color-white-primary'>
+                                                    {state.days || '0'}
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <span className=' d-flex mb-12'>
+                                            <svg width="4" height="16" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="2" cy="2" r="2" fill="#87855B" />
+                                                <circle cx="2" cy="14" r="2" fill="#87855B" />
+                                            </svg>
+                                        </span>
+                                        <div className=" d-flex flex-column">
+                                            <p className=" mb-0 text-sm font-manrope fw-normal color-gray-light1 text-center">
+                                                Hours
+                                            </p>
+                                            <div className=" mt-1 timing-box d-grid">
+                                                <p className=' mb-0 text-2xl font-manrope fw-normal color-white-primary'>
+                                                    {state.hours || '0'}
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <span className=' d-flex mb-12'>
+                                            <svg width="4" height="16" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="2" cy="2" r="2" fill="#87855B" />
+                                                <circle cx="2" cy="14" r="2" fill="#87855B" />
+                                            </svg>
+                                        </span>
+                                        <div className=" d-flex flex-column">
+                                            <p className=" mb-0 text-sm font-manrope fw-normal color-gray-light1 text-center">
+                                                Mins
+                                            </p>
+                                            <div className=" mt-1 timing-box d-grid">
+                                                <p className=' mb-0 text-2xl font-manrope fw-normal color-white-primary'>
+                                                    {state.minutes || '0'}
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <span className=' d-flex mb-12'>
+                                            <svg width="4" height="16" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="2" cy="2" r="2" fill="#87855B" />
+                                                <circle cx="2" cy="14" r="2" fill="#87855B" />
+                                            </svg>
+                                        </span>
+                                        <div className=" d-flex flex-column">
+                                            <p className=" mb-0 text-sm font-manrope fw-normal color-gray-light1 text-center">
+                                                Secs
+                                            </p>
+                                            <div className=" mt-1 timing-box d-grid">
+                                                <p className=' mb-0 text-2xl font-manrope fw-normal color-white-primary'>
+                                                    {state.seconds || '0'}
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -157,10 +251,10 @@ const Sclair = () => {
                             </p>
                             <p className=' mb-0 text-center font-manrope text-base fw-normal color-gray-light1 mt-12'>
                                 In a landscape where tensions can run high, Baby Sinclair’s memes serve as a reminder that, sometimes, the best way to confront challenges is with a good laugh.
-                            </p> 
+                            </p>
                             <p className=' mb-0 text-center font-manrope text-base fw-normal color-gray-light1 mt-12'>
                                 In this meme-driven world, laughter is not just a reaction; it's a powerful tool for change, and Baby Sinclair is wielding it with style. The bad players better watch out; the crypto defender is here, armed with memes and ready to act.
-                            </p> 
+                            </p>
                             <button className=' mt-32 justify-content-center d-flex align-items-center btn-buy font-manrope fw-bold text-base color-black-secondry bg-yellow-primary gap-10'>
                                 Learn More
                             </button>

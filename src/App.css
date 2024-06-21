@@ -27,6 +27,10 @@
     gap: 32px;
 }
 
+.gap-8 {
+    gap: 8px;
+}
+
 .gap-10 {
     gap: 10px;
 }
@@ -72,6 +76,10 @@
 
 .mb-49 {
     margin-bottom: 49px;
+}
+
+.mb-12{
+    margin-bottom: 12px;
 }
 
 .mb-130 {
@@ -426,6 +434,14 @@
     background-position: center;
 }
 
+.timing-box{
+    background: #FFF62433;
+    width: 50px;
+    height: 40px;
+    border-radius: 4px;
+    place-items: center;
+}
+
 .left-100 {
     left: -100% !important;
 }
@@ -443,16 +459,16 @@
     transition: all 300ms linear;
 }
 
-.active-icon .span1{
+.active-icon .span1 {
     transform: rotate(45deg);
     top: 8px !important;
 }
 
-.active-icon .span2{
+.active-icon .span2 {
     display: none !important;
 }
 
-.active-icon .span3{
+.active-icon .span3 {
     transform: rotate(-45deg);
     top: 8px !important;
 }
