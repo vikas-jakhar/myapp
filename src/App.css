@@ -303,13 +303,19 @@
 .menu-list {
     position: absolute;
     top: 0%;
-    left: -100%;
+    left: 0%;
     width: 100%;
     height: 100vh;
     flex-direction: column;
     justify-content: center;
     background-color: var(--color-black);
     transition: all 300ms linear;
+    z-index: 10;
+}
+
+.close-icon {
+    top: 30px;
+    right: 50px;
 }
 
 .btn-buy {
@@ -418,6 +424,37 @@
     background-repeat: no-repeat;
     min-height: 564px;
     background-position: center;
+}
+
+.left-100 {
+    left: -100% !important;
+}
+
+.togglemenu {
+    width: 30px;
+    height: 20px;
+    z-index: 15;
+}
+
+.togglemenu span {
+    background: var(--color-yellow-primary);
+    height: 4px;
+    left: 0%;
+    transition: all 300ms linear;
+}
+
+.active-icon .span1{
+    transform: rotate(45deg);
+    top: 8px !important;
+}
+
+.active-icon .span2{
+    display: none !important;
+}
+
+.active-icon .span3{
+    transform: rotate(-45deg);
+    top: 8px !important;
 }
 
 .input-box {
@@ -619,7 +656,7 @@
     background-image: url(../src/assets/image/svg/down-icon.svg) !important;
 }
 
-.accordion-button{
+.accordion-button {
     padding: 12px !important;
 }
 
@@ -690,6 +727,12 @@
 
 /* media */
 
+@media (max-width:992px) {
+    .overflow-lg-max-hidden {
+        overflow: hidden;
+    }
+}
+
 @media (min-width:576px) {
     .mt-sm-100 {
         margin-top: 100px !important;
@@ -757,6 +800,14 @@
 
     .-top-lg-25 {
         top: -25px;
+    }
+
+    .mt-lg-108 {
+        margin-top: 108px;
+    }
+
+    .togglemenu {
+        display: none;
     }
 }
 

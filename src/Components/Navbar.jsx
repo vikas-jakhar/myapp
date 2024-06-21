@@ -1,7 +1,18 @@
-import React from 'react';
-import logoSvg from '../assets/image/svg/logo.svg'
+import React, { useState } from 'react';
+import logoSvg from '../assets/image/svg/logo.svg';
 
 const Navbar = () => {
+    const [open, setOpen] = useState(false);
+    function toggleMenu() {
+        setOpen(!open);
+    }
+    if (open === true) {
+        document.body.classList.add("overflow-lg-max-hidden");
+    }
+    else {
+        document.body.classList.remove("overflow-lg-max-hidden");
+    }
+
     return (
         <div className=' position-fixed top-0 start-0 w-100 menu z-20'>
             <div className="container">
@@ -10,12 +21,12 @@ const Navbar = () => {
                         <img src={logoSvg} alt="logo" />
                         <h2 className=' mb-0 fw-semibold font-manrope text-4xl color-yellow'>$CLAIR</h2>
                     </a>
-                    <div className=' d-flex align-items-center gap-32 menu-list'>
-                        <a href="" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>About</a>
-                        <a href="" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Tokenomics</a>
-                        <a href="" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Audit</a>
-                        <a href="" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Roadmap</a>
-                        <a href="" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>White Paper</a>
+                    <div className={`${open ? "strat-0" : "left-100"} d-flex align-items-center gap-32 menu-list`}>
+                        <a href="#header1" onClick={toggleMenu} className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>About</a>
+                        <a href="#header1" onClick={toggleMenu} className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Tokenomics</a>
+                        <a href="#header1" onClick={toggleMenu} className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Audit</a>
+                        <a href="#header1" onClick={toggleMenu} className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Roadmap</a>
+                        <a href="#header1" onClick={toggleMenu} className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>White Paper</a>
                         <div className=' d-flex cursor-pointer ml-28'>
                             <svg width="68" height="32" viewBox="0 0 68 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M12.4317 17.7537C12.3804 17.4968 10.6128 8.65869 10.5567 8.37862C10.4692 7.94044 10.0843 7.625 9.63747 7.625H7.76247C7.3156 7.625 6.93078 7.94044 6.84322 8.37862C6.78628 8.66344 5.01685 17.5106 4.96822 17.7536C4.86666 18.2614 5.19597 18.7553 5.70366 18.8568C6.21134 18.9583 6.70528 18.629 6.80678 18.1213L7.40603 15.125H9.99391L10.5932 18.1214C10.6947 18.6293 11.1888 18.9584 11.6963 18.8568C12.204 18.7553 12.5333 18.2614 12.4317 17.7537ZM7.78103 13.25L8.53103 9.5H8.86891L9.61891 13.25H7.78103Z" fill="#F1F1F1" />
@@ -25,7 +36,12 @@ const Navbar = () => {
                             </svg>
                         </div>
                     </div>
-              </nav>
+                    <div className={`${open ? "active-icon": ""} togglemenu position-relative cursor-pointer`} onClick={toggleMenu}>
+                        <span className=' d-flex position-absolute w-100 top-0 span1'></span>
+                        <span className=' d-flex position-absolute w-100 translate-middle-y top-50 span2'></span>
+                        <span className=' d-flex position-absolute w-100 bottom-0 span3'></span>
+                    </div>
+                </nav>
             </div>
         </div>
     )
