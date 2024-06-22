@@ -32,9 +32,9 @@ const Socials = () => {
   }, []);
   return (
     <footer className=' pt-5 pb-4 -mt-8 position-relative bg-black overflow-hidden'>
-      <div className="container mt-lg-108">
+      <div className="container mt-lg-108 z-1 position-relative">
         <div className="w-100 d-flex justify-content-center position-relative">
-          <div className="footer-box d-flex flex-column align-items-center w-100" data-aos="fade-up" data-aos-duration="2000">
+          <div className="footer-box d-flex flex-column align-items-center w-100 z-2 position-relative" data-aos="fade-up" data-aos-duration="2000">
             <div className="footer-box1 bg-black w-100 h-100 d-flex flex-column align-items-center">
               <h2 className=' mb-0 font-manrope fw-semibold text-4xl text-center color-gray-light mt-32 position-relative z-1'>
                 Our <span className=' color-yellow'>Socials</span>

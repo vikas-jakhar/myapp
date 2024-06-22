@@ -6,9 +6,10 @@ import Sclair from './Components/Sclair';
 import Address from './Components/Address';
 import Tokenomics from "./Components/Tokenomics";
 import Secure from "./Components/Secure";
-import Roadmap from "../src/Components/Roadmap";
+import Roadmap from "./Components/Roadmap";
 import Accordionsec from "./Components/Accordionsec";
-import Socials from "../src/Components/Socials";
+import Socials from "./Components/Socials";
+import Preloader from "./Components/Preloader";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Roadmap />
       <Accordionsec />
       <Socials />
+      <Preloader />
     </main>
   );
 }

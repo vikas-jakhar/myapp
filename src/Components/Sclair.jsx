@@ -9,7 +9,7 @@ const Sclair = () => {
     useEffect(() => {
         AOS.init({ once: true });
     }, []);
-    const [countdownDate, setCountdownDate] = useState(new Date('6 /22/2024').getTime());
+    const [countdownDate, setCountdownDate] = useState(new Date('8 /22/2024').getTime());
     const [state, setState] = useState({
         days: 0,
         hours: 0,
