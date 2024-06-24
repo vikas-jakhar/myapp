@@ -13,7 +13,7 @@ import Preloader from "./Components/Preloader";
 
 function App() {
   return (
-    <main className=' overflow-hidden'>
+    <main className=' overflow-hidden bg-black'>
       <Navbar />
       <Header />
       <Sclair />

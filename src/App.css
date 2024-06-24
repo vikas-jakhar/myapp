@@ -175,6 +175,10 @@
     padding-bottom: 39px !important;
 }
 
+.pb-2px {
+    padding-bottom: 2px;
+}
+
 /* width-height */
 
 .max-w-702 {
@@ -527,7 +531,7 @@
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.99);
-    min-height: 877px;
+    min-height: 854px;
 }
 
 .scroll-img {
@@ -637,7 +641,7 @@
     background-position: center;
     background-color: rgba(0, 0, 0, 0.99);
     min-height: 1018px;
-    margin-top: -125px;
+    margin-top: -143px;
 }
 
 .accordion1 {
@@ -774,6 +778,7 @@
     50% {
         opacity: 100%;
     }
+
     100% {
         opacity: 50%;
     }
@@ -900,6 +905,6 @@
 
 @media (min-width:1400px) {
     .stoke {
-        top: -98px;
+        top: -113px;
     }
 }

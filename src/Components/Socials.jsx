@@ -32,7 +32,7 @@ const Socials = () => {
   }, []);
   return (
     <footer className=' pt-5 pb-4 -mt-8 position-relative bg-black overflow-hidden'>
-      <div className="container mt-lg-108 z-1 position-relative">
+      <div className="container mt-lg-108 z-1 position-relative pb-2px">
         <div className="w-100 d-flex justify-content-center position-relative">
           <div className="footer-box d-flex flex-column align-items-center w-100 z-2 position-relative" data-aos="fade-up" data-aos-duration="2000">
             <div className="footer-box1 bg-black w-100 h-100 d-flex flex-column align-items-center">
@@ -73,7 +73,7 @@ const Socials = () => {
           </div>
           <img src={eye} alt="eye" className=' position-absolute top-0 end-0' />
         </div>
-        <div className=" mt-100 py-1 d-flex flex-column align-items-center">
+        <div className=" mt-100 pt-2 pb-1 d-flex flex-column align-items-center">
           <h2 className=' mb-0 text-center text-7xl font-manrope fw-semibold color-yellow mt-32'>
             $CLAIR
           </h2>
@@ -95,7 +95,7 @@ const Socials = () => {
             </div>
           </div>
         </div>
-        <span className=' d-flex w-100 h-1 opacity-25 mt-32 bg-yellow-primary'></span>
+        <span className=' d-flex w-100 h-1 opacity-25 mt-32 bg-yellow-primary mb-1'></span>
         <button className='scrolltop position-fixed font-manropre fw-bold text-xl' onClick={scrollToTop} style={{ display: visible ? 'grid' : 'none' }}>⇑</button>
       </div>
     </footer>

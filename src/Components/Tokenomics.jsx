@@ -124,7 +124,7 @@ const Tokenomics = () => {
                         <img src={chartimg} alt="chart-img" className=' w-100 h-100 max-h-565 max-w-491' />
                     </div>
                 </div>
-                <div className=" w-100 token-box" data-aos="fade-up" data-aos-duration="2000">
+                <div className=" w-100 token-box mb-4" data-aos="fade-up" data-aos-duration="2000">
                     <div className=' border-r-16 token-box2 d-flex justify-content-between align-items-center flex-column flex-lg-row gap-lg-4'>
                         <div className=" d-flex gap-sm-20 gap-2 align-items-center">
                             <span className='circle d-grid'>
