@@ -7,6 +7,7 @@ import okk from "../assets/image/png/okk.webp";
 import uniswap from "../assets/image/png/uniswap.webp";
 import coingecko from "../assets/image/png/coingecko.webp";
 import ellipse from "../assets/image/png/Ellipse-right.webp";
+import bglayer from "../assets/image/png/secure-img-bg-layer.webp";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -18,8 +19,9 @@ const Secure = () => {
         <section className=' py-5 -mt-8 Secure-bg-img position-relative'>
             <div className="container mt-sm-130 my-5 my-lg-2 pt-lg-0 pt-5">
                 <div className="row mt-4 mt-lg-0">
-                    <div className="col-lg-6 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="2000">
-                        <img src={secure} alt="secure" className=' w-100 max-w-h-245' />
+                    <div className="col-lg-6 d-flex justify-content-center position-relative" data-aos="fade-right" data-aos-duration="2000">
+                        <img src={secure} alt="secure" className=' w-100 max-w-h-245 position-relative z-1' />
+                        <img src={bglayer} alt="bglayer" className=' position-absolute w-100 top-37 start-47 d-none d-md-flex translate-middle' />
                     </div>
                     <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start mt-24 mt-lg-0" data-aos="fade-left" data-aos-duration="2000">
                         <p className=' mb-0 font-manrope fw-normal text-xl color-gray-primary text-center text-lg-start'>
