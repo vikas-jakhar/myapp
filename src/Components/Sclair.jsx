@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import yellowline from "../assets/image/png/yellow-line.webp";
 import whiteline from "../assets/image/png/white-line.webp";
 import eye from "../assets/image/png/eye-img.webp";
+import Sliderimg from "../assets/image/svg/slider-img.svg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -157,6 +158,7 @@ const Sclair = () => {
                                 <div id="player" className=' mt-sm-0'>
                                     <img src={yellowline} alt="yellowline" className=' position-absolute yellow-line' />
                                     <img src={whiteline} alt="whiteline" className=' position-absolute white-line' />
+                                    <img src={Sliderimg} alt="Sliderimg" className=' position-absolute start-50 z-1 translate-middle top-50' />
                                     <div id="volume"></div>
                                 </div>
                                 <p className=" mb-0 text-sm font-manrope fw-normal mt-2 pt-3 color-gray-light1">

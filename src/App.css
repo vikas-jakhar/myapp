@@ -380,7 +380,7 @@
     position: relative;
     margin: 0 auto;
     top: 15px;
-    margin-top: 20px;
+    margin-top: 20px;    
 }
 
 #volume {
@@ -389,7 +389,7 @@
     margin: 0 auto;
     height: 22px;
     width: 100%;
-    background: var(--color-white);
+    background-image: linear-gradient(to right, var(--color-yellow-primary) 50%, var(--color-white) 50%);
     border-radius: 15px;
 
     .ui-slider-range-min {
