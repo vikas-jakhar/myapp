@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import eye from "../assets/image/png/eye-img.webp";
+import Footerbottom from "../assets/image/png/footer-bottom-img.webp";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -31,7 +32,7 @@ const Socials = () => {
     };
   }, []);
   return (
-    <footer className=' pt-5 pb-4 -mt-8 position-relative bg-black overflow-hidden'>
+    <footer className=' pt-5 pb-4 -mt-8 position-relative bg-black overflow-hidden footer-sec'>
       <div className="container mt-lg-108 z-1 position-relative pb-2px">
         <div className="w-100 d-flex justify-content-center position-relative">
           <div className="footer-box d-flex flex-column align-items-center w-100 z-2 position-relative" data-aos="fade-up" data-aos-duration="2000">
@@ -98,6 +99,7 @@ const Socials = () => {
         <span className=' d-flex w-100 h-1 opacity-25 mt-32 bg-yellow-primary mb-1'></span>
         <button className='scrolltop position-fixed font-manropre fw-bold text-xl' onClick={scrollToTop} style={{ display: visible ? 'grid' : 'none' }}>⇑</button>
       </div>
+      <img src={Footerbottom} alt="Footerbottom" className=' position-absolute bottom-40 start-0 w-100' />
     </footer>
   )
 }
