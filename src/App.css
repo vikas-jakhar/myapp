@@ -441,7 +441,7 @@
     top: 0%;
     left: 0%;
     background: var(--color-black);
-    opacity: 85%;   
+    opacity: 85%;
 }
 
 .address-sec {
@@ -454,7 +454,7 @@
 }
 
 .timing-box {
-    background: #FFF62433;
+    background: var(--color-yellow-drak1);
     width: 50px;
     height: 40px;
     border-radius: 4px;
