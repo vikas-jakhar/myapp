@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import eye from "../assets/image/png/eye-img.webp";
 import Footerbottom from "../assets/image/png/footer-bottom-img.webp";
+import left from "../assets/image/png/Ellipse-left-footer.webp";
+import right from "../assets/image/png/Ellipse-right-footer.webp";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -71,6 +73,8 @@ const Socials = () => {
                 </a>
               </div>
             </div>
+            <img src={left} alt="left" className=' position-absolute top-0 start-0' />
+            <img src={right} alt="right" className=' position-absolute bottom-0 end-0' />
           </div>
           <img src={eye} alt="eye" className=' position-absolute top-0 end-0' />
         </div>
