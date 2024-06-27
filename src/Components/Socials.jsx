@@ -38,7 +38,7 @@ const Socials = () => {
       <div className="container mt-lg-108 z-1 position-relative pb-2px">
         <div className="w-100 d-flex justify-content-center position-relative">
           <div className="footer-box d-flex flex-column align-items-center w-100 z-2 position-relative" data-aos="fade-up" data-aos-duration="2000">
-            <div className="footer-box1 bg-black w-100 h-100 d-flex flex-column align-items-center">
+            <div className="footer-box1 bg-black w-100 h-100 d-flex flex-column align-items-center position-relative">
               <h2 className=' mb-0 font-manrope fw-semibold text-4xl text-center color-gray-light mt-32 position-relative z-1'>
                 Our <span className=' color-yellow'>Socials</span>
               </h2>
@@ -72,9 +72,9 @@ const Socials = () => {
                   </svg>
                 </a>
               </div>
+              <img src={left} alt="left" className=' position-absolute top-0 start-0' />
+              <img src={right} alt="right" className=' position-absolute bottom-0 end-0' />
             </div>
-            <img src={left} alt="left" className=' position-absolute top-0 start-0' />
-            <img src={right} alt="right" className=' position-absolute bottom-0 end-0' />
           </div>
           <img src={eye} alt="eye" className=' position-absolute top-0 end-86' />
         </div>
