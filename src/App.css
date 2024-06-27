@@ -451,10 +451,39 @@
 .address-sec {
     background-image: url(../src/assets/image/png/address-sec-bg-layer.webp);
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.99);
     background-repeat: no-repeat;
     min-height: 564px;
     background-position: center;
+}
+
+.btn-success {
+    --bs-btn-color: ;
+    --bs-btn-bg: transparent !important;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-color: none;
+}
+
+.btn:hover {
+    --bs-btn-bg: transparent !important;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-color: none;
+    background: transparent;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.btn:first-child:active {
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: var(--color-black-primary);
+    --bs-dropdown-border-color: var(--color-gray-primary);
+    backdrop-filter: blur(20px);
+    background: var(--color-black-primary);
 }
 
 .timing-box {
@@ -564,7 +593,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.99);
     min-height: 854px;
 }
 
@@ -673,7 +701,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.99);
     min-height: 1018px;
     margin-top: -70px;
 }
@@ -799,7 +826,7 @@
     transition: all 300ms linear;
 }
 
-.end-86{
+.end-86 {
     right: -86px;
 }
 
