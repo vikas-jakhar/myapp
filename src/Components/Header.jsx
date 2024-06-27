@@ -37,6 +37,20 @@ const Header = () => {
           <path d="M19.9253 11.5912C19.7505 11.5912 19.5828 11.5218 19.4591 11.3981C19.3355 11.2745 19.266 11.1067 19.266 10.9319V7.62199C19.266 7.44712 19.3355 7.27941 19.4591 7.15576C19.5828 7.03211 19.7505 6.96265 19.9253 6.96265C20.1002 6.96265 20.2679 7.03211 20.3916 7.15576C20.5152 7.27941 20.5847 7.44712 20.5847 7.62199V10.9319C20.5847 11.1067 20.5152 11.2745 20.3916 11.3981C20.2679 11.5218 20.1002 11.5912 19.9253 11.5912Z" fill="#F1F1F1" />
         </svg>
       </a>
+      <span className=' position-absolute bottom-0 start-0'>
+        <svg width="189" height="458" viewBox="0 0 189 458" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.6" filter="url(#filter0_f_113_788)">
+            <circle cx="-40" cy="229" r="50" fill="#FFF624" />
+          </g>
+          <defs>
+            <filter id="filter0_f_113_788" x="-268.8" y="0.199997" width="457.6" height="457.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="89.4" result="effect1_foregroundBlur_113_788" />
+            </filter>
+          </defs>
+        </svg>
+      </span>
     </section>
   )
 }

@@ -67,6 +67,20 @@ const Accordionsec = () => {
                     </Accordion>
                 </div>
             </div>
+            <span className=' position-absolute top-0 end-0 translate-middle-y'>
+                <svg width="229" height="458" viewBox="0 0 229 458" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.6" filter="url(#filter0_f_113_785)">
+                        <circle cx="229" cy="229" r="50" fill="#FFF624" />
+                    </g>
+                    <defs>
+                        <filter id="filter0_f_113_785" x="0.199997" y="0.199997" width="457.6" height="457.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                            <feGaussianBlur stdDeviation="89.4" result="effect1_foregroundBlur_113_785" />
+                        </filter>
+                    </defs>
+                </svg>
+            </span>
         </section>
     )
 }

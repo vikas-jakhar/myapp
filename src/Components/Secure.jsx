@@ -8,6 +8,7 @@ import uniswap from "../assets/image/png/uniswap.webp";
 import coingecko from "../assets/image/png/coingecko.webp";
 import ellipse from "../assets/image/png/Ellipse-right.webp";
 import bglayer from "../assets/image/png/secure-img-bg-layer.webp";
+import Security from "../assets/image/png/s-img.webp";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -50,8 +51,8 @@ const Secure = () => {
                             </p>
                         </div>
                     </div>
-                    <div className=" col-lg-6 mt-24 mt-lg-0" data-aos="fade-left" data-aos-duration="2000">
-                        <div className=" scroll-img mx-auto me-lg-0">
+                    <div className=" col-lg-6 mt-24 mt-lg-0 position-relative" data-aos="fade-left" data-aos-duration="2000">
+                        <div className=" scroll-img mx-auto me-lg-0 z-1">
                             <div className=" px-15 wrapper position-relative">
                                 <div class="wrapper d-flex align-items-center w-100 overflow-hidden">
                                     <div class="marquee">
@@ -82,6 +83,7 @@ const Secure = () => {
                                 </div>
                             </div>
                         </div>
+                        <img src={Security} alt="shelid" className=' position-absolute w-100 top-0 end-0 translate-middle-y top-50' />
                     </div>
                 </div>
             </div>

@@ -34,8 +34,8 @@ const Socials = () => {
     };
   }, []);
   return (
-    <footer className=' pt-5 pb-4 -mt-8 position-relative bg-black overflow-hidden footer-sec'>
-      <div className="container mt-lg-108 z-1 position-relative pb-2px">
+    <footer className=' pt-5 pb-4 -mt-8 position-relative bg-black footer-sec'>
+      <div className="container mt-lg-108 z-2 position-relative pb-2px">
         <div className="w-100 d-flex justify-content-center position-relative">
           <div className="footer-box d-flex flex-column align-items-center w-100 z-2 position-relative" data-aos="fade-up" data-aos-duration="2000">
             <div className="footer-box1 bg-black w-100 h-100 d-flex flex-column align-items-center position-relative">
@@ -104,6 +104,34 @@ const Socials = () => {
         <button className='scrolltop position-fixed font-manropre fw-bold text-xl' onClick={scrollToTop} style={{ display: visible ? 'grid' : 'none' }}>⇑</button>
       </div>
       <img src={Footerbottom} alt="Footerbottom" className=' position-absolute bottom-40 start-0 w-100' />
+      <span className=' position-absolute top-0 end-0 translate-middle-y z-1'>
+        <svg width="229" height="458" viewBox="0 0 229 458" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.6" filter="url(#filter0_f_113_783)">
+            <circle cx="229" cy="229" r="50" fill="#FFF624" />
+          </g>
+          <defs>
+            <filter id="filter0_f_113_783" x="0.199997" y="0.199997" width="457.6" height="457.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="89.4" result="effect1_foregroundBlur_113_783" />
+            </filter>
+          </defs>
+        </svg>
+      </span>
+      <span className=' position-absolute start-0 top-50 translate-middle-y z-1'>
+        <svg width="189" height="458" viewBox="0 0 189 458" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.6" filter="url(#filter0_f_113_784)">
+            <circle cx="-40" cy="229" r="50" fill="#FFF624" />
+          </g>
+          <defs>
+            <filter id="filter0_f_113_784" x="-268.8" y="0.199997" width="457.6" height="457.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="89.4" result="effect1_foregroundBlur_113_784" />
+            </filter>
+          </defs>
+        </svg>
+      </span>
     </footer>
   )
 }
