@@ -76,7 +76,7 @@ const Socials = () => {
             <img src={left} alt="left" className=' position-absolute top-0 start-0' />
             <img src={right} alt="right" className=' position-absolute bottom-0 end-0' />
           </div>
-          <img src={eye} alt="eye" className=' position-absolute top-0 end-0' />
+          <img src={eye} alt="eye" className=' position-absolute top-0 end-86' />
         </div>
         <div className=" mt-100 pt-2 pb-1 d-flex flex-column align-items-center">
           <h2 className=' mb-0 text-center text-7xl font-manrope fw-semibold color-yellow mt-32'>

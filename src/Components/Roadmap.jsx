@@ -15,7 +15,7 @@ const Roadmap = () => {
           Roadmap
         </h2>
         <div className="row mt-100">
-          <div className="col-lg-4 col-md-6 d-flex justify-content-end mt-24 mt-lg-0" data-aos="zoom-in" data-aos-duration="2000">
+          <div className="col-lg-4 col-md-6 d-flex justify-content-left mt-24 mt-lg-0" data-aos="zoom-in" data-aos-duration="2000">
             <div className="phase1 w-100 position-relative top-lg-184">
               <div className="phase1-box d-flex flex-column">
                 <h4 className=' mb-0 text-white fw-medium font-manrope text-4xl'>
@@ -119,7 +119,7 @@ const Roadmap = () => {
               <img src={dotline} alt="dotline" className=' position-absolute bottom-55 start-50 translate-middle-x d-none d-lg-flex' />
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 d-flex justify-content-left mt-24 mt-lg-0" data-aos="zoom-in" data-aos-duration="2000">
+          <div className="col-lg-4 col-md-6 d-flex justify-content-end mt-24 mt-lg-0" data-aos="zoom-in" data-aos-duration="2000">
             <div className="phase1 w-100 position-relative">
               <div className="phase1-box d-flex flex-column pb-39">
                 <h4 className=' mb-0 text-white fw-medium font-manrope text-4xl'>
@@ -163,7 +163,7 @@ const Roadmap = () => {
           </div>
         </div>
       </div>
-      <img src={stoke} alt="stoke" className=' stoke position-relative w-100 d-none d-lg-flex' data-aos="fade-up" data-aos-duration="2000" />
+      <img src={stoke} alt="stoke" className=' stoke position-absolute w-100 top-25 start-0 position-lg-relative d-lg-flex' data-aos="fade-up" data-aos-duration="2000" />
     </section>
   )
 }

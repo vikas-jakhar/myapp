@@ -45,7 +45,7 @@ const Sclair = () => {
         }
     };
     return (
-        <section className=' position-relative py-1 -mt-8 bg-black overflow-hidden' id='Sclair'>
+        <section className=' position-relative py-3 py-xxl-1 -mt-8 bg-black overflow-hidden' id='Sclair'>
             <div className=" container">
                 <div className=" d-flex justify-content-center" data-aos="fade-up" data-aos-duration="2000">
                     <div className=' time-box w-100 d-flex justify-content-center'>

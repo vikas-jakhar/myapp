@@ -3,9 +3,9 @@ import hero from "../assets/image/png/hero-img.webp";
 
 const Header = () => {
   return (
-    <section className=' hero-sec min-vh-100 position-relative py-1' id='header1'>
+    <section className=' hero-sec min-vh-100 position-relative py-1 d-flex align-items-center' id='header1'>
       <div className="container position-relative z-1">
-        <div className=' d-flex flex-column align-items-center mt-150 position-relative z-1'>
+        <div className=' d-flex flex-column align-items-center mt-125 position-relative z-1'>
           <h2 className=' font-manrope fw-bold color-white-primary text-7xl mb-0'>
             Presale is <span className=' color-yellow'>Live</span>
           </h2>
@@ -25,7 +25,7 @@ const Header = () => {
           </button>
         </div>
         <div className=' d-flex justify-content-center'>
-          <img src={hero} alt="hero" className=' w-75 position-relative -top-lg-25 max-w-810'/>
+          <img src={hero} alt="hero" className=' w-100 position-relative -top-lg-25 max-w-810' />
         </div>
       </div>
       <a href='#Sclair' className=' next-sec position-absolute d-none d-sm-grid'>
