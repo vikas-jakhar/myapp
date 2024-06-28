@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import yellowline from "../assets/image/png/yellow-line.webp";
 import whiteline from "../assets/image/png/white-line.webp";
 import eye from "../assets/image/png/eye-img.webp";
-import Sliderimg from "../assets/image/svg/slider-img.svg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -44,6 +43,19 @@ const Sclair = () => {
             setState({ days: days, hours: hours, minutes, seconds });
         }
     };
+
+    const [volume, setVolume] = useState(98212738); // Initial volume set to 50
+
+    useEffect(() => {
+        document.documentElement.style.setProperty('--volume-fill', `${(volume / 178425476) * 100}%`);
+    }, [volume]);
+
+    const handleVolumeChange = (event) => {
+        setVolume(event.target.value);
+    };
+
+    const volumeLeft = 178425476 - volume;
+
     return (
         <section className=' position-relative py-3 py-xxl-1 -mt-8 bg-black overflow-hidden' id='Sclair'>
             <div className=" container">
@@ -143,7 +155,7 @@ const Sclair = () => {
                                             Tokens are Sold
                                         </p>
                                         <p className=' mb-0 fw-bold font-manrope text-base color-yellow mt-1'>
-                                            98,212,738
+                                            {parseInt(volume).toLocaleString()}
                                         </p>
                                     </div>
                                     <div className=" d-flex flex-column pr-22">
@@ -151,15 +163,21 @@ const Sclair = () => {
                                             Tokens Remaining
                                         </p>
                                         <p className=' mb-0 fw-bold font-manrope text-base color-white-primary mt-1'>
-                                            80,212,738
+                                            {volumeLeft.toLocaleString()}
                                         </p>
                                     </div>
                                 </div>
                                 <div id="player" className=' mt-sm-0'>
                                     <img src={yellowline} alt="yellowline" className=' position-absolute yellow-line' />
                                     <img src={whiteline} alt="whiteline" className=' position-absolute white-line' />
-                                    <img src={Sliderimg} alt="Sliderimg" className=' position-absolute start-50 z-1 translate-middle top-50' />
-                                    <div id="volume"></div>
+                                    <input
+                                        type="range"
+                                        min="0"
+                                        max="178425476"
+                                        value={volume}
+                                        onChange={handleVolumeChange}
+                                        className="custom-slider"
+                                    />
                                 </div>
                                 <p className=" mb-0 text-sm font-manrope fw-normal mt-2 pt-3 color-gray-light1">
                                     Purchase $Clair fast until the price increase.
