@@ -9,12 +9,12 @@ const Roadmap = () => {
     AOS.init({ once: true });
   }, []);
   return (
-    <section className=' py-1 pt-md-3 pb-md-5 position-relative -mt-8 roadmap'>
+    <section className=' py-1 pt-md-3 pb-md-5 position-relative -mt-8 roadmap' id='Roadmap'>
       <div className="container mt-sm-32 mb-130 mb-lg-0 position-relative z-1">
         <h2 className=' text-center fw-semibold font-manrope color-white-primary text-6xl mb-0' data-aos="fade-up" data-aos-duration="2000">
           Roadmap
         </h2>
-        <div className="row mt-100">
+        <div className="row mt-100 justify-content-center">
           <div className="col-lg-4 col-md-6 d-flex justify-content-left mt-24 mt-lg-0" data-aos="zoom-in" data-aos-duration="2000">
             <div className="phase1 w-100 position-relative top-lg-184">
               <div className="phase1-box d-flex flex-column">

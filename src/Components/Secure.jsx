@@ -17,7 +17,7 @@ const Secure = () => {
         AOS.init({ once: true });
     }, []);
     return (
-        <section className=' py-5 -mt-8 Secure-bg-img position-relative'>
+        <section className=' py-5 -mt-8 Secure-bg-img position-relative' id='Secure'>
             <div className="container mt-sm-130 my-5 my-lg-2 pt-lg-0 pt-5">
                 <div className="row mt-4 mt-lg-0">
                     <div className="col-lg-6 d-flex justify-content-center position-relative" data-aos="fade-right" data-aos-duration="2000">

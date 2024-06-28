@@ -23,11 +23,11 @@ const Navbar = () => {
                         <h2 className=' mb-0 fw-semibold font-manrope text-4xl color-yellow'>$CLAIR</h2>
                     </a>
                     <div className={`${open ? "strat-0" : "left-100"} d-flex align-items-center gap-32 menu-list`}>
-                        <a href="#header1" onClick={toggleMenu} className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>About</a>
-                        <a href="#header1" onClick={toggleMenu} className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Tokenomics</a>
-                        <a href="#header1" onClick={toggleMenu} className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Audit</a>
-                        <a href="#header1" onClick={toggleMenu} className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Roadmap</a>
-                        <a href="#header1" onClick={toggleMenu} className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>White Paper</a>
+                        <a href="#Sclair" onClick={toggleMenu} className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>About</a>
+                        <a href="#token" onClick={toggleMenu} className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Tokenomics</a>
+                        <a href="#Secure" onClick={toggleMenu} className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Audit</a>
+                        <a href="#Roadmap" onClick={toggleMenu} className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Roadmap</a>
+                        <a href="#Accordionsec" onClick={toggleMenu} className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>White Paper</a>
                         <div className=' d-flex cursor-pointer ml-28'>
 
                             <Dropdown>

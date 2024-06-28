@@ -34,7 +34,7 @@ const Socials = () => {
     };
   }, []);
   return (
-    <footer className=' pt-5 pb-4 -mt-8 position-relative bg-black footer-sec'>
+    <footer className=' pt-5 pb-4 -mt-8 position-relative bg-black footer-sec' id='Socials'>
       <div className="container mt-lg-108 z-2 position-relative pb-2px">
         <div className="w-100 d-flex justify-content-center position-relative">
           <div className="footer-box d-flex flex-column align-items-center w-100 z-2 position-relative" data-aos="fade-up" data-aos-duration="2000">
@@ -89,14 +89,14 @@ const Socials = () => {
           </p>
           <div className=" mt-50 max-w-758 w-100 overflow-x-scroll pb-3">
             <div className=' w-758 nav-scroll d-flex justify-content-between align-items-center'>
-              <a href="" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>About</a>
-              <a href="" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Tokenomics</a>
-              <a href="" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Audit</a>
-              <a href="" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Roadmap</a>
-              <a href="" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>White Paper</a>
-              <a href="" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Privacy</a>
-              <a href="" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Cookies</a>
-              <a href="" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Disclaimer</a>
+              <a href="#Sclair" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>About</a>
+              <a href="#token" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Tokenomics</a>
+              <a href="#Secure" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Audit</a>
+              <a href="#Roadmap" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Roadmap</a>
+              <a href="#Accordionsec" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>White Paper</a>
+              <a href="#Secure" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Privacy</a>
+              <a href="#Socials" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Cookies</a>
+              <a href="#Socials" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Disclaimer</a>
             </div>
           </div>
         </div>
