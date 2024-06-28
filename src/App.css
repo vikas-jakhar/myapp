@@ -870,6 +870,10 @@
     pointer-events: none;
 }
 
+.translate-middley {
+    transform: translateY(50%);
+}
+
 .top-37 {
     top: 37%;
 }
