@@ -793,7 +793,8 @@
 .custom-slider {
     -webkit-appearance: none;
     appearance: none;
-    width: 404px;
+    max-width: 404px;
+    width: 100%;
     height: 22px;
     border-radius: 20px;
     background: linear-gradient(to right, yellow var(--volume-fill), var(--color-white) var(--volume-fill));
