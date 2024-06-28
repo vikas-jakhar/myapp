@@ -9,7 +9,7 @@ const Accordionsec = () => {
     }, []);
     return (
         <section className='py-5 position-relative Accordion-sec d-flex align-items-center' id='Accordionsec'>
-            <div className="container mt-78 mb-5">
+            <div className="container mt-78 mb-5 position-relative z-2">
                 <h2 className=' mb-0 text-center font-manrope fw-semibold text-6xl color-white-primary' data-aos="fade-up" data-aos-duration="2000">
                     Frequently Asked <span className=' color-yellow'>Questions</span>
                 </h2>

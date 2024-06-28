@@ -58,7 +58,7 @@ const Sclair = () => {
 
     return (
         <section className=' position-relative py-3 py-xxl-1 -mt-8 bg-black overflow-hidden' id='Sclair'>
-            <div className=" container">
+            <div className=" container position-relative z-2">
                 <div className=" d-flex justify-content-center" data-aos="fade-up" data-aos-duration="2000">
                     <div className=' time-box w-100 d-flex justify-content-center'>
                         <div className=" p-3 p-md-40 time-box2 w-100 h-100 d-flex justify-content-center flex-column align-items-center flex-lg-row justify-content-lg-between">
