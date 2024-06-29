@@ -78,7 +78,7 @@ const Socials = () => {
           </div>
           <img src={eye} alt="eye" className=' position-absolute top-0 end-86' />
         </div>
-        <div className=" mt-100 pt-2 pb-1 d-flex flex-column align-items-center">
+        <div className=" mt-100 pt-2 pb-1 d-flex flex-column align-items-center pt-4">
           <h2 className=' mb-0 text-center text-7xl font-manrope fw-semibold color-yellow mt-32'>
             $CLAIR
           </h2>
@@ -87,7 +87,7 @@ const Socials = () => {
             and Baby Sinclair is wielding it with style. The bad players better watch out;
             the crypto defender is here, armed with memes and ready to act.
           </p>
-          <div className=" mt-50 max-w-758 w-100 overflow-x-scroll pb-3">
+          <div className=" mt-50 max-w-758 w-100 overflow-x-scroll pt-3">
             <div className=' w-758 nav-scroll d-flex justify-content-between align-items-center'>
               <a href="#Sclair" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>About</a>
               <a href="#token" className=' text-base fw-medium font-manrope color-gray-primary nav-heading position-relative'>Tokenomics</a>

@@ -62,7 +62,7 @@ const Sclair = () => {
                 <div className=" d-flex justify-content-center" data-aos="fade-up" data-aos-duration="2000">
                     <div className=' time-box w-100 d-flex justify-content-center'>
                         <div className=" p-3 p-md-40 time-box2 w-100 h-100 d-flex justify-content-center flex-column align-items-center flex-lg-row justify-content-lg-between">
-                            <div className="max-w-254 w-100 mt-24">
+                            <div className="max-w-254 w-100">
                                 <div className=' d-flex justify-content-between align-items-center'>
                                     <div className=" d-flex flex-column">
                                         <p className=' mb-0 fw-normal font-manrope text-base color-gray-primary'>
@@ -144,11 +144,11 @@ const Sclair = () => {
                                         </svg>
                                     </span>
                                 </div>
-                                <button className=' mt-32 w-100 justify-content-center d-flex align-items-center btn-buy font-manrope fw-bold text-base color-black-secondry bg-yellow-primary gap-10'>
+                                <button className=' mt-28 w-100 justify-content-center d-flex align-items-center btn-buy font-manrope fw-bold text-base color-black-secondry bg-yellow-primary gap-10'>
                                     Buy Now
                                 </button>
                             </div>
-                            <div className=' max-w-404 w-100 mt-24'>
+                            <div className=' max-w-404 w-100 mt-24 mt-lg-0'>
                                 <div className=' d-flex justify-content-between align-items-center'>
                                     <div className=" d-flex flex-column">
                                         <p className=' mb-0 fw-normal font-manrope text-base color-gray-primary'>
