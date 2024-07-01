@@ -259,13 +259,13 @@ const Sclair = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" d-flex justify-content-center mt-100 mb-10" data-aos="fade-up" data-aos-duration="2000">
+                <div className=" d-flex justify-content-center mt-100 mb-lg-10" data-aos="fade-up" data-aos-duration="2000">
                     <div className=" position-relative max-w-856 w-100">
                         <img src={eye} alt="eye" className=' position-absolute top-0 end-36' />
                         <h2 className=' mb-0 fw-semibold font-manrope text-6xl color-white-primary text-center position-relative z-1'>
                             About <span className=' color-yellow fw-bold'>$CLAIR</span>
                         </h2>
-                        <div className=" position-relative z-1 mt-16 d-flex flex-column align-items-center pb-4">
+                        <div className=" position-relative z-1 mt-16 d-flex flex-column align-items-center pb-lg-4">
                             <p className=' mb-0 text-center font-manrope text-base fw-normal color-gray-light1'>
                                 As you navigate through the avatars, you'll find each one has a unique voice, bringing laughter and a touch of sarcasm to the otherwise serious discussions in the crypto space.
                             </p>

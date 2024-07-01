@@ -10,11 +10,11 @@ const Roadmap = () => {
   }, []);
   return (
     <section className=' py-1 pt-md-3 pb-md-5 position-relative -mt-8 roadmap' id='Roadmap'>
-      <div className="container mt-sm-32 mb-130 mb-lg-0 position-relative z-2">
+      <div className="container mt-lg-32 mb-4 mb-lg-0 position-relative z-2">
         <h2 className=' text-center mt-0 mt-lg-2 fw-semibold font-manrope color-white-primary text-6xl mb-0' data-aos="fade-up" data-aos-duration="2000">
           Roadmap
         </h2>
-        <div className="row mt-100 justify-content-center">
+        <div className="row mt-lg-100 mt-2 mt-md-4 justify-content-center">
           <div className="col-lg-4 col-md-6 d-flex justify-content-left mt-24 mt-lg-0" data-aos="zoom-in" data-aos-duration="2000">
             <div className="phase1 w-100 position-relative top-lg-184">
               <div className="phase1-box d-flex flex-column">
@@ -126,36 +126,36 @@ const Roadmap = () => {
                   Phase 3
                 </h4>
                 <div className=' max-w-226'>
-                <div className=' d-flex align-items-center gap-10 mt-16'>
-                  <span className=' dot d-flex'></span>
-                  <p className=' mb-0 fw-medium text-base font-manrope color-gray-primary'>
-                    Burns (5% quarterly)
-                  </p>
-                </div>
-                <div className=' d-flex align-items-center gap-10 mt-8'>
-                  <span className=' dot d-flex'></span>
-                  <p className=' mb-0 fw-medium text-base font-manrope color-gray-primary'>
-                    Rewards Program
-                  </p>
-                </div>
-                <div className=' d-flex align-items-center gap-10 mt-8'>
-                  <span className=' dot d-flex'></span>
-                  <p className=' mb-0 fw-medium text-base font-manrope color-gray-primary'>
-                    Multiple Partnerships
-                  </p>
-                </div>
-                <div className=' d-flex align-items-center gap-10 mt-8'>
-                  <span className=' dot d-flex'></span>
-                  <p className=' mb-0 fw-medium text-base font-manrope color-gray-primary'>
-                    Create your own AI Avatar Voiceover.
-                  </p>
-                </div>
-                <div className=' d-flex align-items-center gap-10 mt-8'>
-                  <span className=' dot d-flex'></span>
-                  <p className=' mb-0 fw-medium text-base font-manrope color-gray-primary'>
-                    AI Metaverse Avatar Play-to-Earn
-                  </p>
-                </div>
+                  <div className=' d-flex align-items-center gap-10 mt-16'>
+                    <span className=' dot d-flex'></span>
+                    <p className=' mb-0 fw-medium text-base font-manrope color-gray-primary'>
+                      Burns (5% quarterly)
+                    </p>
+                  </div>
+                  <div className=' d-flex align-items-center gap-10 mt-8'>
+                    <span className=' dot d-flex'></span>
+                    <p className=' mb-0 fw-medium text-base font-manrope color-gray-primary'>
+                      Rewards Program
+                    </p>
+                  </div>
+                  <div className=' d-flex align-items-center gap-10 mt-8'>
+                    <span className=' dot d-flex'></span>
+                    <p className=' mb-0 fw-medium text-base font-manrope color-gray-primary'>
+                      Multiple Partnerships
+                    </p>
+                  </div>
+                  <div className=' d-flex align-items-center gap-10 mt-8'>
+                    <span className=' dot d-flex'></span>
+                    <p className=' mb-0 fw-medium text-base font-manrope color-gray-primary'>
+                      Create your own AI Avatar Voiceover.
+                    </p>
+                  </div>
+                  <div className=' d-flex align-items-center gap-10 mt-8'>
+                    <span className=' dot d-flex'></span>
+                    <p className=' mb-0 fw-medium text-base font-manrope color-gray-primary'>
+                      AI Metaverse Avatar Play-to-Earn
+                    </p>
+                  </div>
                 </div>
               </div>
               <img src={dotline} alt="dotline" className=' position-absolute bottom-55 start-50 translate-middle-x d-none d-lg-flex' />

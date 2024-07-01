@@ -10,8 +10,8 @@ const Tokenomics = () => {
         AOS.init({ once: true });
     }, []);
     return (
-        <section className=' py-3 -mt-8 position-relative bg-black' id='token'>
-            <div className="container mt-32 mt-sm-100 mb-lg-5 pb-2 position-relative z-2">
+        <section className=' pt-3 py-lg-3 -mt-8 position-relative bg-black' id='token'>
+            <div className="container mt-lg-100 mb-lg-5 pb-md-2 position-relative z-2">
                 <div className="row justify-content-center">
                     <div className="col-lg-6 d-flex justify-content-start align-items-center" data-aos="fade-right" data-aos-duration="2000">
                         <div className=" d-flex flex-column">
@@ -124,7 +124,7 @@ const Tokenomics = () => {
                         <img src={chartimg} alt="chart-img" className=' w-100 h-100 max-h-565 max-w-491' />
                     </div>
                 </div>
-                <div className=" w-100 token-box mb-4" data-aos="fade-up" data-aos-duration="2000">
+                <div className=" w-100 token-box mb-lg-4" data-aos="fade-up" data-aos-duration="2000">
                     <div className=' border-r-16 token-box2 d-flex justify-content-between align-items-center flex-column flex-lg-row gap-lg-4'>
                         <div className=" d-flex gap-sm-20 gap-2 align-items-center">
                             <span className='circle d-grid'>

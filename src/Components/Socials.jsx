@@ -34,8 +34,8 @@ const Socials = () => {
     };
   }, []);
   return (
-    <footer className=' pt-5 pb-4 -mt-8 position-relative bg-black footer-sec overflow-hidden' id='Socials'>
-      <div className="container mt-lg-108 z-2 position-relative pb-2px">
+    <footer className=' pt-1 pt-lg-5 pb-4 -mt-8 position-relative bg-black footer-sec overflow-hidden' id='Socials'>
+      <div className="container mt-lg-32 mt-xl-108 z-2 position-relative pb-2px">
         <div className="w-100 d-flex justify-content-center position-relative">
           <div className="footer-box d-flex flex-column align-items-center w-100 z-2 position-relative" data-aos="fade-up" data-aos-duration="2000">
             <div className="footer-box1 bg-black w-100 h-100 d-flex flex-column align-items-center position-relative">
@@ -78,7 +78,7 @@ const Socials = () => {
           </div>
           <img src={eye} alt="eye" className=' position-absolute top-0 end-86' />
         </div>
-        <div className=" mt-100 pt-2 pb-1 d-flex flex-column align-items-center pt-4">
+        <div className=" mt-lg-100 pt-2 pb-1 d-flex flex-column align-items-center pt-4">
           <h2 className=' mb-0 text-center text-7xl font-manrope fw-semibold color-yellow mt-32'>
             $CLAIR
           </h2>
